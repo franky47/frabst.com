@@ -1,0 +1,49 @@
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>FraBst</title>
+    <meta name='description' content='Cobra Fitness'>
+    <meta name='author' content='Francois Best'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='css/normalize.css'>
+    <link rel='stylesheet' href='css/skeleton.css'>
+    <link rel='stylesheet' href='css/app.css'>
+
+    <script>
+      function retinify (img) {
+        if (window.devicePixelRatio > 1.0) {
+          img.onload = null
+          img.src = img.src.replace('.png', '@2x.png')
+        }
+      }
+    </script>
+  </head>
+  <body>
+      <div class='container' style='margin-top: 5%'>
+          <img src='img/frabst.png' onload='retinify(this)' width='204' height='52'>
+          <p>François Best</p>
+          <div class='row'>
+            <div class='four columns'>
+              <ul>
+                <li>
+                  <a href='https://github.com/franky47'>GitHub</a>
+                </li>
+              </ul>
+              <div class='row'>
+                <p>PROJECTS</p>
+                <ul>
+                  <li><a href='https://github.com/franky47/stravels'>Stravels</a></li>
+                  <li><a href='https://github.com/franky47/stravels'>Secret Santa</a></li>
+                  <li><a href='https://github.com/franky47/stravels'>PyGre</a></li>
+                  <li><a href='https://github.com/franky47/stravels'>Marauders Map</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class='eight columns'>
+            </div>
+          </div>
+        </div>
+  </body>
+</html>

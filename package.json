@@ -1,0 +1,24 @@
+{
+  "name": "frabst.com",
+  "version": "0.0.1",
+  "description": "Landing web page for https://frabst.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "deploy:staging": "surge ./src https://frabst.surge.sh",
+    "deploy:prod": "surge ./src https://frabst.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franky47/frabst.com.git"
+  },
+  "author": "Francois Best <francoisbest@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franky47/frabst.com/issues"
+  },
+  "homepage": "https://github.com/franky47/frabst.com#readme",
+  "devDependencies": {
+    "surge": "^0.19.0"
+  }
+}
